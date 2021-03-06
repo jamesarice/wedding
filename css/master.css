@@ -31,17 +31,17 @@ p {
 }
 
 body > header {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 main {
   overflow: hidden;
-  display: contents;
   display: block;
 }
 
-main#intro {
+#intro {
   overflow: hidden;
+  padding: 1rem 0;
 }
 
 body > header > h1 {
