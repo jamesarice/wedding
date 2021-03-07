@@ -1,20 +1,31 @@
 body {
   font-size: 1rem;
-  background: #dad4b7;
   text-align: center;
   font-family: ballinger,sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #b95e3a;
-  padding: 1rem 0;
   position: relative;
   margin: 0;
 }
 
+body > section#cover {
+  background: #b95e3a;
+  color: #dad4b7;
+  padding: 1rem 0;
+}
+
+body > section#details {
+  background: #dad4b7;
+  color: #b95e3a;
+}
+
 @media (min-width: 460px) {
   body {
-    padding: 4rem 0;
     font-size: 1.2rem;
+  }
+
+  body > section#cover {
+    padding: 4rem 0;
   }
 }
 
@@ -44,7 +55,7 @@ main {
   padding: 1rem 0;
 }
 
-body > header > h1 {
+body > section#cover > header > h1 {
   display: none;
 }
 
